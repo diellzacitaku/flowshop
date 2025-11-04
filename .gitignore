@@ -1,0 +1,24 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+wp-config.php
+*.log
+
+# Media & caches
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/debug.log
+
+# Plugins: ignore all except custom/required ones
+wp-content/plugins/*
+!wp-content/plugins/code-snippets/
+!wp-content/mu-plugins/
+
+# Themes: ignore all except your child/custom theme
+wp-content/themes/*
+!wp-content/themes/storefront-child/
+
+# Node/build
+node_modules/
+dist/
