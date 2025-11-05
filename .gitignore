@@ -12,13 +12,19 @@ wp-content/debug.log
 
 # Plugins: ignore all except custom/required ones
 wp-content/plugins/*
-!wp-content/plugins/code-snippets/
 !wp-content/mu-plugins/
 
 # Themes: ignore all except your child/custom theme
 wp-content/themes/*
-!wp-content/themes/storefront-child/
+!wp-content/themes/flowshop-child/
 
 # Node/build
 node_modules/
 dist/
+
+# OS/IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
