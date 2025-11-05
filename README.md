@@ -8,6 +8,14 @@ All-in-One WP Migration export (.wpress).
 The child theme folder exists but has no custom code beyond defaults.
 
 
+**Shipping note:** Free shipping is set to **200 €** (chosen intentionally to match a furniture store’s typical order values).
+
+
+
+
+
+
+
 ## What’s implemented
 
 - **Products**
@@ -56,3 +64,7 @@ catalog, settings, menus, and all product images.
 4. Click Import From → File and select: backup/flowshop-local-20251105-214300-ub0acycfnbty.wpress
 5. Confirm the prompts and wait for the import to complete, then click Finish
 6. Visit the site front end—Shop, product pages, Cart, and Checkout should all work with images.
+
+## Demo
+https://github.com/user-attachments/assets/276413df-5d15-4c78-8632-76cca4d21d9b
+
